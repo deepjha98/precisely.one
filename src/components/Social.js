@@ -1,7 +1,11 @@
 import React from "react";
 //IMPORT IMAGES
-// import People from "../resources/Greet/People.svg";
-// import People from "../resources/Social/";
+import Info from "../resources/Social/Info.svg";
+import Video from "../resources/Social/Video.svg";
+import Profile1 from "../resources/Social/ProfilePic/Profile1.svg";
+import Profile2 from "../resources/Social/ProfilePic/Profile2.svg";
+import Profile3 from "../resources/Social/ProfilePic/Profile3.svg";
+import Profile4 from "../resources/Social/ProfilePic/Profile4.svg";
 /////////////////////////////////////////////
 //FUNCTIONAL SOCIAL COMPONENT
 const Social = () => {
@@ -10,16 +14,20 @@ const Social = () => {
       <div className="forth-left-col">
         <div className="flc-1">
           <div className="flc-1-box">
-            <p className="flc-1-box-text">Deepak Kumar</p>
+            {/* <img src={Profile1} /> */}
+            <p className="flc-1-box-text">Ashish Kumar</p>
           </div>
           <div className="flc-1-box">
-            <p className="flc-1-box-text">Deepak Kumar</p>
+            {/* <img src={Profile2} /> */}
+            <p className="flc-1-box-text">Prakriti Jain</p>
           </div>
           <div className="flc-1-box">
-            <p className="flc-1-box-text">Deepak Kumar</p>
+            {/* <img src={Profile3} /> */}
+            <p className="flc-1-box-text">Samridhi</p>
           </div>
           <div className="flc-1-box">
-            <p className="flc-1-box-text">Deepak Kumar</p>
+            {/* <img src={Profile4} /> */}
+            <p className="flc-1-box-text">Piyush</p>
           </div>
         </div>
         <div className="flc-2"></div>
@@ -31,8 +39,8 @@ const Social = () => {
                 <span>Conference Room</span>
               </div>
               <div className="flc-3-extra">
-                <img src="./icons/info.png" />
-                <img src="./icons/user.png" />
+                <img src={Info} />
+                <img src={Video} />
               </div>
             </div>
             <div className="flc-3-inner-row-2">

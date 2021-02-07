@@ -10,7 +10,7 @@
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .tlc-boxes:nth-child(odd) {
   width: 30%;
@@ -53,6 +53,33 @@
       rgba(255, 255, 255, 0) 79%
     ),
     #615eea;
+}
+.tlc-boxes-4 {
+  background: linear-gradient(
+      144.09deg,
+      #ffffff -54.46%,
+      rgba(255, 255, 255, 0) 79%
+    ),
+    #9608ad;
+  border-radius: 20px;
+}
+.tlc-boxes-5 {
+  background: linear-gradient(
+      144.09deg,
+      #ffffff -54.46%,
+      rgba(255, 255, 255, 0) 79%
+    ),
+    #00a3c6;
+  border-radius: 20px;
+}
+.tlc-boxes-6 {
+  background: linear-gradient(
+      144.09deg,
+      #ffffff -54.46%,
+      rgba(255, 255, 255, 0) 79%
+    ),
+    #3700d5;
+  border-radius: 20px;
 }
 .tlc-boxes {
   display: flex;

@@ -16,7 +16,9 @@ class Rooms extends React.Component {
             <div className="tlc-boxes-icon">
               <img src={People2} alt="" />
             </div>
-            <div className="tlc-boxes-inner-text">Conference Room</div>
+            <div className="tlc-boxes-inner-text">
+              Sunil Kapoor, Head of Growth
+            </div>
           </div>
           <div className="tlc-boxes tlc-boxes-2">
             <div className="tlc-boxes-icon">
@@ -28,7 +30,7 @@ class Rooms extends React.Component {
             <div className="tlc-boxes-inner-text">Conference Room</div>
           </div>
           <div className="tlc-boxes tlc-boxes-3">
-            <div className="tlc-boxes-inner-text">Conference Room</div>
+            <div className="tlc-boxes-inner-text">Gaming Area</div>
           </div>
           <div className="tlc-boxes tlc-boxes-4">
             <div className="tlc-boxes-icon">
@@ -37,10 +39,10 @@ class Rooms extends React.Component {
             <div className="tlc-boxes-icon">
               <img src={People2} alt="" />
             </div>
-            <div className="tlc-boxes-inner-text">Conference Room</div>
+            <div className="tlc-boxes-inner-text">Sales Department</div>
           </div>
           <div className="tlc-boxes tlc-boxes-5">
-            <div className="tlc-boxes-inner-text">Conference Room</div>
+            <div className="tlc-boxes-inner-text">Marketing Department</div>
           </div>
           <div className="tlc-boxes tlc-boxes-6">
             <div className="tlc-boxes-icon">
@@ -49,7 +51,7 @@ class Rooms extends React.Component {
             <div className="tlc-boxes-icon">
               <img src={People2} alt="" />
             </div>
-            <div className="tlc-boxes-inner-text">Conference Room</div>
+            <div className="tlc-boxes-inner-text">Tech Department</div>
           </div>
         </div>
       </div>
