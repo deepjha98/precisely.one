@@ -1,5 +1,7 @@
 import React from "react";
 //IMPORT IMAGES
+// import People from "../resources/Greet/People.svg";
+// import People from "../resources/Social/";
 /////////////////////////////////////////////
 //FUNCTIONAL SOCIAL COMPONENT
 const Social = () => {

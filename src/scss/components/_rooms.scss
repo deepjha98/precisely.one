@@ -76,11 +76,28 @@
   height: 40px;
   width: 40px;
   border-radius: 5px;
-  border: 2px solid white;
 }
 .tlc-boxes.tlc-boxes-1 .tlc-boxes-icon:nth-child(2) {
   left: 80px;
   right: 10px;
   top: 5px;
   bottom: 4px;
+}
+.tlc-boxes.tlc-boxes-2 .tlc-boxes-icon:nth-child(2) {
+  left: 200px;
+  right: 70px;
+  top: 5px;
+  bottom: 4px;
+}
+.tlc-boxes.tlc-boxes-3 .tlc-boxes-icon:nth-child(2) {
+  left: 80px;
+  right: 10px;
+  top: 5px;
+  bottom: 4px;
+}
+.tlc-boxes.tlc-boxes-6 .tlc-boxes-icon:nth-child(2) {
+  left: 50px;
+  right: 10px;
+  top: 115px;
+  bottom: 0px;
 }

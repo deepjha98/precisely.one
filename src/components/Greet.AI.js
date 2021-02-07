@@ -1,4 +1,8 @@
 import React from "react";
+//Images Import
+import Info from "../resources/Greet/Info.svg";
+import Notification from "../resources/Greet/Notification.svg";
+import People from "../resources/Greet/People.svg";
 ////////////////////////////////////////////
 class Greet extends React.Component {
   render() {
@@ -8,10 +12,11 @@ class Greet extends React.Component {
           <div className="slr-1">
             <div className="slr-1-title">Greet.AI</div>
             <div className="slr-1-people">
-              <img src="./icons/info.png" /> <span>2</span>
+              <img src={People} /> <span>2</span>
             </div>
             <div className="slr-1-info">
-              <img src="./icons/info.png" />
+              <img src={Notification} />
+              <img src={Info} />
             </div>
           </div>
           <div className="slr-2">
