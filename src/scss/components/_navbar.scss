@@ -1,0 +1,21 @@
+.sidenav {
+  width: 4%;
+  background-color: $black;
+  position: relative;
+  min-height: 100vh;
+
+  &__top {
+    position: relative;
+    top: 0px;
+  }
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  #nav-component {
+    background-color: orange;
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+}

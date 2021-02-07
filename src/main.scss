@@ -1,0 +1,11 @@
+// Import abstracts
+@import "scss/abstracts/variables";
+
+//RESET THE PAGE BASICS
+@import "scss/base/reset";
+
+//IMPORT GRID LAYOUT
+@import "scss/layout/grid";
+
+//Import components
+@import "scss/components/navbar";
