@@ -1,0 +1,121 @@
+.forth-left-col {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flc-1 {
+  height: 40%;
+  /* background: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  max-height: 100%;
+}
+.flc-1-box {
+  max-height: 100%;
+  height: 48%;
+  width: 48%;
+  background-color: yellow;
+  background-image: url("https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+
+  margin-left: 2px;
+  margin-right: 2px;
+  position: relative;
+}
+.flc-1-box-text {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-size: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.247);
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.flc-2 {
+  height: 8%;
+  background-color: blue;
+}
+.flc-3 {
+  height: 50%;
+  background-color: violet;
+}
+.flc-3-inner-col {
+  height: 100%;
+}
+.flc-3-inner-row-1 {
+  height: 15%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+}
+.flc-3-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flc-3-profile img {
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 30px;
+  margin-left: 10px;
+}
+.flc-3-profile span {
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.flc-3-extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flc-3-extra img {
+  width: 30%;
+  margin-left: 5px;
+}
+
+.flc-3-inner-row-2 {
+  height: 70%;
+  background: #222222;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.flc-3-inner-row-3 {
+  height: 15%;
+  background-color: #5a5a5a;
+}
+.flc-3-chat-1 {
+  background-color: #5a5a5a;
+  color: white;
+  padding: 6px 6px;
+  width: 80%;
+  margin-right: auto;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+}
+.flc-3-chat-2 {
+  background-color: #3f7558;
+  color: white;
+  padding: 6px 6px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}

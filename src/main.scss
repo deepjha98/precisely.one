@@ -4,8 +4,14 @@
 //RESET THE PAGE BASICS
 @import "scss/base/reset";
 
-//IMPORT GRID LAYOUT
-@import "scss/layout/grid";
+//IMPORT UTILS
+@import "scss/utils/utils";
 
 //Import components
 @import "scss/components/navbar";
+@import "scss/components/greet-ai";
+@import "scss/components/rooms";
+@import "scss/components/social";
+
+//IMPORT GRID LAYOUT
+@import "scss/layout/grid";
